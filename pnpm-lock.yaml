@@ -15,25 +15,25 @@ importers:
         specifier: ^1.3.0
         version: 1.3.0(@dz-web/axios@0.0.6(axios@1.18.1))(axios@1.18.1)
       '@dz-web/bridge':
-        specifier: ^3.4.1
+        specifier: ^3.4.4
         version: 3.4.4(@dz-web/bridge-core@3.3.7)
       '@dz-web/cache':
         specifier: ^2.0.0
         version: 2.0.0
       '@dz-web/esboot-browser':
-        specifier: ^4.4.2
-        version: 4.4.2
+        specifier: ^4.4.6
+        version: 4.4.6
       '@dz-web/esboot-browser-react':
-        specifier: ^4.4.2
-        version: 4.4.2(@types/react@19.2.15)(react-dom@19.2.7(react@19.2.7))(react-router@7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)
+        specifier: ^4.4.6
+        version: 4.4.6(@types/react@19.2.15)(react-dom@19.2.7(react@19.2.7))(react-router@7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)
       '@dz-web/o-orange':
         specifier: ^4.6.5
         version: 4.6.5
       '@tanstack/react-query':
-        specifier: ^5.100.14
+        specifier: ^5.101.2
         version: 5.101.2(react@19.2.7)
       '@tanstack/react-query-devtools':
-        specifier: ^5.100.14
+        specifier: ^5.101.2
         version: 5.101.2(@tanstack/react-query@5.101.2(react@19.2.7))(react@19.2.7)
       '@websaber/string-utils':
         specifier: ^1.0.0
@@ -45,7 +45,7 @@ importers:
         specifier: ^5.42.3
         version: 5.42.3(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       axios:
-        specifier: ^1.16.1
+        specifier: ^1.18.1
         version: 1.18.1
       dayjs:
         specifier: ^1.11.21
@@ -75,24 +75,24 @@ importers:
         specifier: ^7.15.1
         version: 7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       rsuite:
-        specifier: ^6.1.3
+        specifier: ^6.2.1
         version: 6.2.1(@types/react@19.2.15)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       zustand:
-        specifier: ^5.0.13
+        specifier: ^5.0.14
         version: 5.0.14(@types/react@19.2.15)(react@19.2.7)(use-sync-external-store@1.6.0(react@19.2.7))
     devDependencies:
       '@dz-web/esboot':
-        specifier: ^4.4.2
-        version: 4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
+        specifier: ^4.4.6
+        version: 4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
       '@dz-web/esboot-bundler-rspack':
-        specifier: ^4.4.2
-        version: 4.4.2(@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(browserslist@4.28.6)(rolldown@1.1.5)(sass@1.100.0)(tailwindcss@4.3.2)(typescript@5.9.3)(webpack@5.108.4(esbuild@0.28.1)(postcss@8.5.19))
+        specifier: ^4.4.6
+        version: 4.4.6(@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(browserslist@4.28.6)(rolldown@1.1.5)(sass@1.100.0)(tailwindcss@4.3.2)(typescript@5.9.3)(webpack@5.108.4(esbuild@0.28.1)(postcss@8.5.19))
       '@dz-web/esboot-bundler-vite':
-        specifier: ^4.4.2
-        version: 4.4.2(@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(@svgr/core@8.1.0(typescript@5.9.3))(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(react-dom@19.2.7(react@19.2.7))(rolldown@1.1.5)(sass@1.100.0)(tailwindcss@4.3.2)(tsx@4.23.1)(typescript@5.9.3)(yaml@2.9.0)
+        specifier: ^4.4.6
+        version: 4.4.6(@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(@svgr/core@8.1.0(typescript@5.9.3))(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(react-dom@19.2.7(react@19.2.7))(rolldown@1.1.5)(sass@1.100.0)(tailwindcss@4.3.2)(tsx@4.23.1)(typescript@5.9.3)(yaml@2.9.0)
       '@dz-web/esboot-plugin-vitest':
-        specifier: ^4.4.2
-        version: 4.4.2(@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(@testing-library/dom@10.4.1)(@types/node@25.9.5)(@types/react-dom@19.2.3(@types/react@19.2.15))(@types/react@19.2.15)(esbuild@0.28.1)(jiti@2.7.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass-embedded@1.100.0)(sass@1.100.0)(tailwindcss@4.3.2)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0)
+        specifier: ^4.4.6
+        version: 4.4.6(@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(@testing-library/dom@10.4.1)(@types/node@25.9.5)(@types/react-dom@19.2.3(@types/react@19.2.15))(@types/react@19.2.15)(esbuild@0.28.1)(jiti@2.7.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass-embedded@1.100.0)(sass@1.100.0)(tailwindcss@4.3.2)(terser@5.49.0)(tsx@4.23.1)(typescript@5.9.3)(yaml@2.9.0)
       '@dz-web/esboot-react-mp-tools':
         specifier: file:./dev/tools
         version: file:dev/tools
@@ -112,10 +112,10 @@ importers:
         specifier: ^10.1.0
         version: 10.1.0
       eslint:
-        specifier: ^10.4.0
+        specifier: ^10.7.0
         version: 10.7.0(jiti@2.7.0)
       stylelint:
-        specifier: ^17.12.0
+        specifier: ^17.14.0
         version: 17.14.0(typescript@5.9.3)
 
 packages:
@@ -1264,43 +1264,43 @@ packages:
   '@dz-web/cache@2.0.0':
     resolution: {integrity: sha512-l6pn9pAXRC/7nmPmoNMn4KG/e2KIJLkbgOAUzgXdF6gJ2ZYViICEo0p0UyshlnwQTcEsv1+fYv8LYGWveACw3w==}
 
-  '@dz-web/esboot-browser-react@4.4.2':
-    resolution: {integrity: sha512-v3FOsEWWZwhooHaXin5X1YLJM5z4Nzk7N4QFDlFbdQ6KSNc3gQk7hRhtt7502Z9uqf9KT9qf8xI+yIveCb+9QQ==}
+  '@dz-web/esboot-browser-react@4.4.6':
+    resolution: {integrity: sha512-X3X+cA84MAizwEPFdm+SRenafbGinb4kGyM5MeEH3ztr6DB6NKFJITdqJRhSM91RDs98Eo9eM79FODvBKP/GKA==}
     peerDependencies:
       react: '>=18.3.0'
       react-dom: '>=18.3.0'
 
-  '@dz-web/esboot-browser@4.4.2':
-    resolution: {integrity: sha512-zq3lzE5XXinHYdGdaLq52jpRt0S6vJyaG6JKLjXu6yDlKFqhflT4hGSIG/Y7qMs1MJY/yoj6ONg8tZbW7pBm5g==}
+  '@dz-web/esboot-browser@4.4.6':
+    resolution: {integrity: sha512-jZKRGTDuaXmXHYxu4IV+tmhtuLxjzNZ++JCCMio7O+C+J86SxG8UsDScd+0unjKb1vbQtugX2Pah/ibxKQx3iQ==}
 
-  '@dz-web/esboot-bundler-common@4.4.2':
-    resolution: {integrity: sha512-cYtBgmPq907MqVTq5C2EsIlf4ETvYA2X3O64Y7llYm4c7MuxPTxUaAIjkr8bqZUuqznlzTKygBFsEw/ir/DWFQ==}
+  '@dz-web/esboot-bundler-common@4.4.6':
+    resolution: {integrity: sha512-kBHGdX7FMVvXUrWRjxJTymYXMOvq+QTYQ9qMHSCCYYZVScEBcrtgURd269A4/vZ36e6hQddCJ270O1n+MBaK5A==}
     peerDependencies:
-      '@dz-web/esboot': 4.4.2
+      '@dz-web/esboot': 4.4.6
       tailwindcss: '>=3 <5'
 
-  '@dz-web/esboot-bundler-rspack@4.4.2':
-    resolution: {integrity: sha512-J8BommuUJXolBR8hdECRjAxwbEfTxauOpm4gAYmXwtZLXdU0sieKdz4lmVsOIXuHRjaVYwEPRbdwUjE5F6EFyw==}
+  '@dz-web/esboot-bundler-rspack@4.4.6':
+    resolution: {integrity: sha512-iiAOHklhUhshj3h5ahyo8yKCWNmv3S5n3FCHw9D1wQYbqH+cyil9esRrp20YK8YFDc8EkrjtJK0xouVrm+lJXQ==}
     peerDependencies:
-      '@dz-web/esboot': 4.4.2
+      '@dz-web/esboot': 4.4.6
 
-  '@dz-web/esboot-bundler-vite@4.4.2':
-    resolution: {integrity: sha512-PXmdMDKHTrfdc13Ubq6UNzE1ashwg/ESi2gYOPxKwbjwelIvQ52aoHHx8wEMf23cfLk7O1uJq0rLucmHAdpu7g==}
+  '@dz-web/esboot-bundler-vite@4.4.6':
+    resolution: {integrity: sha512-DzURBIqVeuEfq9AF8zKuAlQKW7hOfVmeJsv6CzJQqe5yZGTpN/ZCttPl+bO323J64x8yPU9mDK18UbJE7rf1mA==}
     peerDependencies:
-      '@dz-web/esboot': 4.4.2
+      '@dz-web/esboot': 4.4.6
       react-dom: ^19.0.0
     peerDependenciesMeta:
       react-dom:
         optional: true
 
-  '@dz-web/esboot-common@4.4.2':
-    resolution: {integrity: sha512-isPY2FDdJuzhbWmlIfUVXlCqLRQSoA7BfN/hBPPcNrs2GclvcpW6KB1Qtwj3smjzAM2Z5fUyCjyi3TMTw3f/TQ==}
+  '@dz-web/esboot-common@4.4.6':
+    resolution: {integrity: sha512-iWwfN1xiC3AvZngwqTV9DsrXx5vqqtLLeVRDkxifR3KVH+UbV1NrEcALAdwBd+NqYXEwS/B1MzLywkUhnKCs5Q==}
 
-  '@dz-web/esboot-lint@4.4.2':
-    resolution: {integrity: sha512-ko43C5VRt+H7kwoW7yiuNG+9bD5YuHGzrCI93Ku37opW1AnEYMGBzgnsHnx8Vgh8QIkGcRKK6DvFkY43dXulSw==}
+  '@dz-web/esboot-lint@4.4.6':
+    resolution: {integrity: sha512-48aAsW9jGxv4YbfEgfasokDJpTdnpeVelS8tLqaBirj0gZWjbxL8Eh7WXi4AqMKQMRIz2sof7+FvRH+An/ZaFA==}
 
-  '@dz-web/esboot-plugin-vitest@4.4.2':
-    resolution: {integrity: sha512-6/3PadAJVxLxKUgeePi8co39o7pbN4eupceK4r2MXBWRgOiS2aA8kyWbigsMX65FjAwbMSI/bIUNoBKd6GHmTg==}
+  '@dz-web/esboot-plugin-vitest@4.4.6':
+    resolution: {integrity: sha512-K2mZ6uVRnYPe1wVEb1GWYYM7w7fpfxWHgTzOnmUAH6llv/Z9Jnhx08fK3tDjFfF/U6c/IkjGAD/43tdkcEpXfw==}
     peerDependencies:
       '@dz-web/esboot': '*'
 
@@ -1308,21 +1308,21 @@ packages:
     resolution: {directory: dev/tools, type: directory}
     hasBin: true
 
-  '@dz-web/esboot-stylelint-config@4.4.2':
-    resolution: {integrity: sha512-mN21bKkZlqP8c7IRI+LIGmg4ezh9yuM+vzG5RTQcn7BaJQNdy1pCNhJr1b0FG8wckMHw41TddXooVrtH8wawNA==}
+  '@dz-web/esboot-stylelint-config@4.4.6':
+    resolution: {integrity: sha512-S09q78V1gSX9Bn+aDQgfBFujeFbl1ahdeXV4KEDVYkrfelVr/g2QqGBKb60Q+GR56aQJY2/Feq1BCBWZ+KkNBg==}
 
-  '@dz-web/esboot@4.4.2':
-    resolution: {integrity: sha512-3dVrwMORJYd6ufd8eFhLTAl4jafnxjFWk958k7vs3cowTnbOpC+pedOiLY6elye7J7s/zqHvWkKNsAx/KOYbKA==}
+  '@dz-web/esboot@4.4.6':
+    resolution: {integrity: sha512-9z4YxIb5nji82V+zJT/3Ff8NQuosjnqMBebKzN9BKk3tlu3r1Rv+9zZLD9MwZvVyKi1Y7KshCbmEFl2C9ZGubw==}
     hasBin: true
 
-  '@dz-web/eslint-plugin-esboot@4.4.2':
-    resolution: {integrity: sha512-ajPdk7ElMYFFd+OYsblpeCJ1917mdTGuUrlTMtLPK5hZlWeqfnt8dYoROeBwgLYL0yYyAfzT7l+HRwNMcJeYKQ==}
+  '@dz-web/eslint-plugin-esboot@4.4.6':
+    resolution: {integrity: sha512-NG3p76HdnyUkQrnHl4cXWg9jlIKig+50RAokdb0KKDrwMEOf6QFyNcBTD3t4KZgB43/WdUyiCAThzrqK+yrbsQ==}
 
   '@dz-web/o-orange@4.6.5':
     resolution: {integrity: sha512-9SH62m4khC/Gtl6kh4HCU7Tp6sBvErskdkV/Zg+ItJ5JLstUoanjMdbSDMKIzRRTUvOL886O1WFYvxhV4KQ18Q==}
 
-  '@dz-web/postcss-plugin-esboot@4.4.2':
-    resolution: {integrity: sha512-6D6JQKzgS8gjAgrEq7DAiPliQ7nlo2PRwekZKdD/fGYq9Jz458zmaY0I2w1rIg5LxKUUanbZJyEnjTpG0t1jag==}
+  '@dz-web/postcss-plugin-esboot@4.4.6':
+    resolution: {integrity: sha512-nj7JfgF0wy3g2lGblfVxNTwO8bK3lNSAwQuG+nYDLm7h47P62FE/1FLf7E+sfER7+a1+aGJj5Rl7RsF8suF5qQ==}
     peerDependencies:
       tailwindcss: '>=3 <5'
 
@@ -9212,7 +9212,7 @@ snapshots:
     dependencies:
       crypto-js: 4.2.0
 
-  '@dz-web/esboot-browser-react@4.4.2(@types/react@19.2.15)(react-dom@19.2.7(react@19.2.7))(react-router@7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)':
+  '@dz-web/esboot-browser-react@4.4.6(@types/react@19.2.15)(react-dom@19.2.7(react@19.2.7))(react-router@7.18.1(react-dom@19.2.7(react@19.2.7))(react@19.2.7))(react@19.2.7)':
     dependencies:
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
@@ -9228,19 +9228,19 @@ snapshots:
       - rollup
       - supports-color
 
-  '@dz-web/esboot-browser@4.4.2':
+  '@dz-web/esboot-browser@4.4.6':
     dependencies:
       class-variance-authority: 0.7.1
       clsx: 2.1.1
       lodash-es: 4.18.1
       tailwind-merge: 3.6.0
 
-  '@dz-web/esboot-bundler-common@4.4.2(@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(tailwindcss@4.3.2)':
+  '@dz-web/esboot-bundler-common@4.4.6(@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(tailwindcss@4.3.2)':
     dependencies:
       '@alitajs/postcss-plugin-px2rem': 0.0.1
-      '@dz-web/esboot': 4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
-      '@dz-web/esboot-common': 4.4.2
-      '@dz-web/postcss-plugin-esboot': 4.4.2(tailwindcss@4.3.2)
+      '@dz-web/esboot': 4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
+      '@dz-web/esboot-common': 4.4.6
+      '@dz-web/postcss-plugin-esboot': 4.4.6(tailwindcss@4.3.2)
       '@rollup/pluginutils': 5.4.0
       '@tailwindcss/postcss': 4.3.2
       '@umijs/ast': 4.6.75
@@ -9253,12 +9253,12 @@ snapshots:
       - rollup
       - supports-color
 
-  '@dz-web/esboot-bundler-rspack@4.4.2(@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(browserslist@4.28.6)(rolldown@1.1.5)(sass@1.100.0)(tailwindcss@4.3.2)(typescript@5.9.3)(webpack@5.108.4(esbuild@0.28.1)(postcss@8.5.19))':
+  '@dz-web/esboot-bundler-rspack@4.4.6(@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(browserslist@4.28.6)(rolldown@1.1.5)(sass@1.100.0)(tailwindcss@4.3.2)(typescript@5.9.3)(webpack@5.108.4(esbuild@0.28.1)(postcss@8.5.19))':
     dependencies:
       '@dz-web/babel-plugin-react-css-modules': 6.13.7(css-loader@7.1.4(@rspack/core@2.1.3)(webpack@5.108.4(esbuild@0.28.1)(postcss@8.5.19)))(postcss@8.5.19)(webpack@5.108.4(esbuild@0.28.1)(postcss@8.5.19))
-      '@dz-web/esboot': 4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
-      '@dz-web/esboot-bundler-common': 4.4.2(@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(tailwindcss@4.3.2)
-      '@dz-web/esboot-common': 4.4.2
+      '@dz-web/esboot': 4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
+      '@dz-web/esboot-bundler-common': 4.4.6(@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(tailwindcss@4.3.2)
+      '@dz-web/esboot-common': 4.4.6
       '@rollup/pluginutils': 5.4.0
       '@rspack/core': 2.1.3
       '@rspack/dev-server': 2.1.0(@rspack/core@2.1.3)
@@ -9292,11 +9292,11 @@ snapshots:
       - typescript
       - webpack
 
-  '@dz-web/esboot-bundler-vite@4.4.2(@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(@svgr/core@8.1.0(typescript@5.9.3))(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(react-dom@19.2.7(react@19.2.7))(rolldown@1.1.5)(sass@1.100.0)(tailwindcss@4.3.2)(tsx@4.23.1)(typescript@5.9.3)(yaml@2.9.0)':
+  '@dz-web/esboot-bundler-vite@4.4.6(@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(@svgr/core@8.1.0(typescript@5.9.3))(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(react-dom@19.2.7(react@19.2.7))(rolldown@1.1.5)(sass@1.100.0)(tailwindcss@4.3.2)(tsx@4.23.1)(typescript@5.9.3)(yaml@2.9.0)':
     dependencies:
-      '@dz-web/esboot': 4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
-      '@dz-web/esboot-bundler-common': 4.4.2(@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(tailwindcss@4.3.2)
-      '@dz-web/esboot-common': 4.4.2
+      '@dz-web/esboot': 4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
+      '@dz-web/esboot-bundler-common': 4.4.6(@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(tailwindcss@4.3.2)
+      '@dz-web/esboot-common': 4.4.6
       '@rollup/pluginutils': 5.4.0
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.9.3))
       '@svgr/plugin-svgo': 8.1.0(@svgr/core@8.1.0(typescript@5.9.3))(typescript@5.9.3)
@@ -9331,7 +9331,7 @@ snapshots:
       - typescript
       - yaml
 
-  '@dz-web/esboot-common@4.4.2':
+  '@dz-web/esboot-common@4.4.6':
     dependencies:
       address: 2.0.3
       cross-spawn: 7.0.6
@@ -9346,14 +9346,14 @@ snapshots:
       lodash: 4.18.1
       zod: 4.4.3
 
-  '@dz-web/esboot-lint@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)':
+  '@dz-web/esboot-lint@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)':
     dependencies:
       '@antfu/eslint-config': 7.7.3(@eslint-react/eslint-plugin@2.13.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(eslint-plugin-react-hooks@7.1.1(eslint@10.7.0(jiti@2.7.0)))(eslint-plugin-react-refresh@0.5.3(eslint@10.7.0(jiti@2.7.0)))(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3)(vitest@4.1.10)
       '@commitlint/cli': 20.5.3(@types/node@25.9.5)(conventional-commits-parser@6.4.0)(typescript@5.9.3)
       '@commitlint/config-conventional': 20.5.3
-      '@dz-web/esboot-common': 4.4.2
-      '@dz-web/esboot-stylelint-config': 4.4.2(postcss@8.5.19)(stylelint@17.14.0(typescript@5.9.3))
-      '@dz-web/eslint-plugin-esboot': 4.4.2
+      '@dz-web/esboot-common': 4.4.6
+      '@dz-web/esboot-stylelint-config': 4.4.6(postcss@8.5.19)(stylelint@17.14.0(typescript@5.9.3))
+      '@dz-web/eslint-plugin-esboot': 4.4.6
       '@eslint-react/eslint-plugin': 2.13.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3)
       '@eslint/eslintrc': 3.3.6
       eslint: 10.7.0(jiti@2.7.0)
@@ -9418,16 +9418,18 @@ snapshots:
       - typescript
       - vitest
 
-  '@dz-web/esboot-plugin-vitest@4.4.2(@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(@testing-library/dom@10.4.1)(@types/node@25.9.5)(@types/react-dom@19.2.3(@types/react@19.2.15))(@types/react@19.2.15)(esbuild@0.28.1)(jiti@2.7.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass-embedded@1.100.0)(sass@1.100.0)(tailwindcss@4.3.2)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0)':
+  '@dz-web/esboot-plugin-vitest@4.4.6(@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(@testing-library/dom@10.4.1)(@types/node@25.9.5)(@types/react-dom@19.2.3(@types/react@19.2.15))(@types/react@19.2.15)(esbuild@0.28.1)(jiti@2.7.0)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass-embedded@1.100.0)(sass@1.100.0)(tailwindcss@4.3.2)(terser@5.49.0)(tsx@4.23.1)(typescript@5.9.3)(yaml@2.9.0)':
     dependencies:
-      '@dz-web/esboot': 4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
-      '@dz-web/esboot-bundler-common': 4.4.2(@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(tailwindcss@4.3.2)
+      '@dz-web/esboot': 4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
+      '@dz-web/esboot-bundler-common': 4.4.6(@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10))(tailwindcss@4.3.2)
       '@testing-library/jest-dom': 6.9.1
       '@testing-library/react': 16.3.2(@testing-library/dom@10.4.1)(@types/react-dom@19.2.3(@types/react@19.2.15))(@types/react@19.2.15)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@testing-library/user-event': 14.6.1(@testing-library/dom@10.4.1)
+      '@vitejs/plugin-react': 5.2.0(vite@8.1.4(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(sass-embedded@1.100.0)(sass@1.100.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0))
       '@vitest/ui': 4.1.10(vitest@4.1.10)
       jsdom: 27.4.0
       vite: 8.1.4(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(sass-embedded@1.100.0)(sass@1.100.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0)
+      vite-plugin-svgr: 4.5.0(typescript@5.9.3)(vite@8.1.4(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(sass-embedded@1.100.0)(sass@1.100.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0))
       vitest: 4.1.10(@types/node@25.9.5)(@vitest/ui@4.1.10)(jsdom@27.4.0)(vite@8.1.4(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(sass-embedded@1.100.0)(sass@1.100.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0))
     transitivePeerDependencies:
       - '@edge-runtime/vm'
@@ -9461,6 +9463,7 @@ snapshots:
       - tailwindcss
       - terser
       - tsx
+      - typescript
       - utf-8-validate
       - yaml
 
@@ -9470,7 +9473,7 @@ snapshots:
       commander: 11.1.0
       ejs: 3.1.10
 
-  '@dz-web/esboot-stylelint-config@4.4.2(postcss@8.5.19)(stylelint@17.14.0(typescript@5.9.3))':
+  '@dz-web/esboot-stylelint-config@4.4.6(postcss@8.5.19)(stylelint@17.14.0(typescript@5.9.3))':
     dependencies:
       '@stylistic/stylelint-plugin': 5.2.1(stylelint@17.14.0(typescript@5.9.3))
       postcss-scss: 4.0.9(postcss@8.5.19)
@@ -9480,11 +9483,11 @@ snapshots:
       - postcss
       - stylelint
 
-  '@dz-web/esboot@4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)':
+  '@dz-web/esboot@4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)':
     dependencies:
       '@dz-web/bridge-mock': 2.0.0
-      '@dz-web/esboot-common': 4.4.2
-      '@dz-web/esboot-lint': 4.4.2(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
+      '@dz-web/esboot-common': 4.4.6
+      '@dz-web/esboot-lint': 4.4.6(@types/node@25.9.5)(@typescript-eslint/rule-tester@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@typescript-eslint/typescript-estree@8.63.0(typescript@5.9.3))(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.7.0))(typescript@5.9.3))(@vue/compiler-sfc@3.5.39)(conventional-commits-parser@6.4.0)(jiti@2.7.0)(postcss@8.5.19)(tailwindcss@4.3.2)(typescript@5.9.3)(vitest@4.1.10)
       commander: 14.0.3
       zod: 4.4.3
     transitivePeerDependencies:
@@ -9538,15 +9541,15 @@ snapshots:
       - utf-8-validate
       - vitest
 
-  '@dz-web/eslint-plugin-esboot@4.4.2':
+  '@dz-web/eslint-plugin-esboot@4.4.6':
     dependencies:
-      '@dz-web/esboot-common': 4.4.2
+      '@dz-web/esboot-common': 4.4.6
 
   '@dz-web/o-orange@4.6.5':
     dependencies:
       big.js: 6.2.2
 
-  '@dz-web/postcss-plugin-esboot@4.4.2(tailwindcss@4.3.2)':
+  '@dz-web/postcss-plugin-esboot@4.4.6(tailwindcss@4.3.2)':
     dependencies:
       tailwindcss: 4.3.2
 
@@ -11023,6 +11026,18 @@ snapshots:
       '@types/babel__core': 7.20.5
       react-refresh: 0.18.0
       vite: 8.1.3-esboot4(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(sass-embedded@1.100.0)(sass@1.100.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0)
+    transitivePeerDependencies:
+      - supports-color
+
+  '@vitejs/plugin-react@5.2.0(vite@8.1.4(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(sass-embedded@1.100.0)(sass@1.100.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0))':
+    dependencies:
+      '@babel/core': 7.29.7
+      '@babel/plugin-transform-react-jsx-self': 7.29.7(@babel/core@7.29.7)
+      '@babel/plugin-transform-react-jsx-source': 7.29.7(@babel/core@7.29.7)
+      '@rolldown/pluginutils': 1.0.0-rc.3
+      '@types/babel__core': 7.20.5
+      react-refresh: 0.18.0
+      vite: 8.1.4(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(sass-embedded@1.100.0)(sass@1.100.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -16101,6 +16116,17 @@ snapshots:
       '@svgr/core': 8.1.0(typescript@5.9.3)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.9.3))
       vite: 8.1.3-esboot4(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(sass-embedded@1.100.0)(sass@1.100.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0)
+    transitivePeerDependencies:
+      - rollup
+      - supports-color
+      - typescript
+
+  vite-plugin-svgr@4.5.0(typescript@5.9.3)(vite@8.1.4(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(sass-embedded@1.100.0)(sass@1.100.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0)):
+    dependencies:
+      '@rollup/pluginutils': 5.4.0
+      '@svgr/core': 8.1.0(typescript@5.9.3)
+      '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.9.3))
+      vite: 8.1.4(@types/node@25.9.5)(esbuild@0.28.1)(jiti@2.7.0)(sass-embedded@1.100.0)(sass@1.100.0)(terser@5.49.0)(tsx@4.23.1)(yaml@2.9.0)
     transitivePeerDependencies:
       - rollup
       - supports-color

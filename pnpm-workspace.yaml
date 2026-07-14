@@ -1,0 +1,17 @@
+allowBuilds:
+  core-js: set this to true or false
+  esbuild: set this to true or false
+  fsevents: set this to true or false
+minimumReleaseAgeExclude:
+  - '@dz-web/esboot-browser-react@4.4.6'
+  - '@dz-web/esboot-browser@4.4.6'
+  - '@dz-web/esboot-bundler-common@4.4.6'
+  - '@dz-web/esboot-bundler-rspack@4.4.6'
+  - '@dz-web/esboot-bundler-vite@4.4.6'
+  - '@dz-web/esboot-common@4.4.6'
+  - '@dz-web/esboot-lint@4.4.6'
+  - '@dz-web/esboot-plugin-vitest@4.4.6'
+  - '@dz-web/esboot-stylelint-config@4.4.6'
+  - '@dz-web/esboot@4.4.6'
+  - '@dz-web/eslint-plugin-esboot@4.4.6'
+  - '@dz-web/postcss-plugin-esboot@4.4.6'
