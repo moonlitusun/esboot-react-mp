@@ -36,7 +36,8 @@ This repository is **esboot-react-mp**, an esboot 4.x React and TypeScript start
 ## Working Rules
 
 - Use `pnpm`; keep `pnpm-lock.yaml` synchronized with dependency changes.
-- Follow existing TypeScript, React, and SCSS patterns in the nearest platform or shared module.
+- Search for and reuse existing components, hooks, helpers, and utilities before creating new components or functions.
+- Create a new component or function only when no suitable existing implementation can be extended or composed; keep new abstractions focused and minimal.
 - Put shared behavior in `src/` and introduce platform-specific code only when browser/native or PC/mobile behavior differs.
 - Preserve the existing platform matrix and naming conventions rather than adding runtime fallbacks that hide unsupported environments.
 - Treat `.env` and `.env.local` values as environment-specific; do not commit secrets or expose their contents in logs or documentation.
