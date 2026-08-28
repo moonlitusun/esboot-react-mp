@@ -14,6 +14,7 @@ This repository is **esboot-react-mp**, an esboot 4.x React and TypeScript start
 
 - For any work involving esboot commands, configuration, plugins, build behavior, development servers, testing integration, documentation tooling, troubleshooting, migrations, or upgrades, use the installed `esboot` skill before analyzing or changing the project.
 - Assume the user already has the `esboot` skill installed. Do not search for it, recommend installing it, or start an installation flow unless invoking the skill explicitly reports that it is unavailable.
+- If the `esboot` skill is explicitly reported as unavailable, install it with `npx skills add https://skillhub.dztec.net/api/skills/esboot/download`.
 - Follow the skill's current guidance instead of guessing esboot APIs or relying on generic Vite, Rspack, or Vitest conventions.
 
 ## Common Commands
