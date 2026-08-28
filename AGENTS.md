@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This repository is **esboot-react-mp**, an esboot 4.x React and TypeScript starter for building PC and mobile applications that run in browser and native bridge environments.
+This repository is an esboot 4.x React and TypeScript starter for building PC and mobile applications that run in browser and native bridge environments.
 
 ## Project Shape
 
@@ -40,5 +40,4 @@ This repository is **esboot-react-mp**, an esboot 4.x React and TypeScript start
 
 - Use TDD for behavior changes: add or update a focused test, confirm it fails for the intended reason, then implement the smallest passing change.
 - Run `pnpm test` after behavior changes and `pnpm build` after build, configuration, dependency, platform, or production-path changes.
-- Run both `pnpm test` and `pnpm build` before concluding broad or release-facing changes.
 - Report any checks that could not be run and the reason; do not claim unverified results.
