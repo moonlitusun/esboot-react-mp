@@ -8,7 +8,6 @@ This repository is **esboot-react-mp**, an esboot 4.x React and TypeScript start
 - Shared application code lives under `src/`, including APIs, constants, helpers, hooks, higher-order components, localization resources, styles, types, and utilities.
 - Platform implementations live under `src/platforms/pc/` and `src/platforms/mobile/`, with `_browser/` and `_native/` variants where behavior differs by runtime.
 - Page scaffolding tools and templates live under `dev/tools/` and are exposed through the `create-page` package script.
-- Generated production assets live under `dist/`; do not edit them by hand.
 
 ## esboot Skill
 
@@ -17,36 +16,29 @@ This repository is **esboot-react-mp**, an esboot 4.x React and TypeScript start
 
 ## Common Commands
 
-- `pnpm install` installs dependencies using the pinned pnpm version and lockfile.
-- `pnpm dev` starts the esboot development server.
-- `pnpm dev:rspack` starts development with Rspack selected explicitly.
-- `pnpm build` creates the production build through Rspack.
-- `pnpm test` runs the test suite through the esboot Vitest plugin.
+- `pnpm install` installs dependencies from the lockfile.
+- `pnpm dev` starts development; `pnpm dev:rspack` explicitly uses Rspack.
+- `pnpm build` creates a production build; `pnpm test` runs Vitest through esboot.
 - `pnpm bridge-mock` starts the native bridge mock tooling.
-- `pnpm docs:dev` starts the documentation development server.
-- `pnpm docs:build` builds the documentation site.
+- `pnpm docs:dev` serves documentation; `pnpm docs:build` builds it.
 - `pnpm create-page` runs the local page scaffolding tool.
 
 ## Style
 
-- Prefer readable, direct TypeScript code.
-- Follow the surrounding code style and conventions in the file you are editing.
+- Follow surrounding conventions and prefer readable, direct TypeScript.
 - Write code comments in English when necessary; keep them concise and only explain non-obvious design decisions.
 
 ## Working Rules
 
 - Use `pnpm`; keep `pnpm-lock.yaml` synchronized with dependency changes.
-- Search for and reuse existing components, hooks, helpers, and utilities before creating new components or functions.
-- Create a new component or function only when no suitable existing implementation can be extended or composed; keep new abstractions focused and minimal.
-- Put shared behavior in `src/` and introduce platform-specific code only when browser/native or PC/mobile behavior differs.
-- Preserve the existing platform matrix and naming conventions rather than adding runtime fallbacks that hide unsupported environments.
+- Reuse or extend existing components, hooks, helpers, and utilities before creating focused, minimal alternatives.
+- Keep shared behavior in `src/`; add platform-specific code only for real browser/native or PC/mobile differences, preserving existing naming conventions.
 - Treat `.env` and `.env.local` values as environment-specific; do not commit secrets or expose their contents in logs or documentation.
 - Do not edit generated files under `dist/` or esboot-managed cache files under `node_modules/.cache/esboot/`.
 
 ## Verification
 
 - Use TDD for behavior changes: add or update a focused test, confirm it fails for the intended reason, then implement the smallest passing change.
-- Run `pnpm test` after behavior changes.
-- Run `pnpm build` after build, configuration, dependency, platform, or production-path changes.
+- Run `pnpm test` after behavior changes and `pnpm build` after build, configuration, dependency, platform, or production-path changes.
 - Run both `pnpm test` and `pnpm build` before concluding broad or release-facing changes.
 - Report any checks that could not be run and the reason; do not claim unverified results.
