@@ -27,6 +27,12 @@ This repository is **esboot-react-mp**, an esboot 4.x React and TypeScript start
 - `pnpm docs:build` builds the documentation site.
 - `pnpm create-page` runs the local page scaffolding tool.
 
+## Style
+
+- Prefer readable, direct Python and TypeScript code.
+- Follow the surrounding code style and conventions in the file you are editing.
+- Write code comments and docstrings in English when necessary; keep them concise and only explain non-obvious design decisions.
+
 ## Working Rules
 
 - Use `pnpm`; keep `pnpm-lock.yaml` synchronized with dependency changes.
